@@ -12,6 +12,7 @@ namespace Demo_Project.Model
         private String title;
         private String description;
         private int id;
+        private int userId;
 
         [Required]
         [StringLength(50, MinimumLength = 3)]
@@ -21,5 +22,6 @@ namespace Demo_Project.Model
         [StringLength(200, MinimumLength = 3)]
         public string Description { get => description; set => description = value; }
         public int Id { get => id; set => id = value; }
+        public int UserId { get => userId; set => userId = value; }
     }
 }

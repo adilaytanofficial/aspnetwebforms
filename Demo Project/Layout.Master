@@ -7,8 +7,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do App</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title>Note App</title>
+    <link rel="stylesheet" href="Styles/bulma.min.css">
 </head>
 
 <body>
@@ -18,7 +18,7 @@
             <div class="hero-body is-justify-content-center is-align-items-center">
                 <div class="columns is-flex is-flex-direction-column box">
                     <div class="column">
-                        <p class="title has-text-centered has-text-primary">Welcome to To Do App</p>
+                        <p class="title has-text-centered has-text-primary">Welcome to Note App</p>
                     </div>
                     <div class="column">
                         <label for="email">Email</label>
@@ -33,7 +33,7 @@
                     </div>
                     <div class="has-text-centered">
                         <p class="is-size-7">
-                            Don't have an account? <a href="#" class="has-text-primary">Sign up</a>
+                            Don't have an account? <a href="Pages/Register.aspx" class="has-text-primary">Sign up</a>
                         </p>
                     </div>
                     <div id="divWarning" class="column" runat="server">
